@@ -1,0 +1,2 @@
+Neste diretorio focam os arquivos estaticos como por exemplo imagens ou arquivos.json
+Pra vc conseguir acessar Estestes arquivos vc tera que usar o UseStaticsFiles(UseArquivosEstaticos)

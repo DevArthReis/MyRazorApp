@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "01hFC0yuS54XaDHkzFORcGsZvR2hksacduP1t9P2XaY=",
+  "Source": "MyRazorApp",
+  "BasePath": "_content/MyRazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyRazorApp\\wwwroot",
+      "Source": "MyRazorApp",
+      "ContentRoot": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\",
+      "BasePath": "_content/MyRazorApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\yswg5zuakz-h1q300sxms.gz",
+      "SourceId": "MyRazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MyRazorApp",
+      "RelativePath": "Anotação#[.{fingerprint=h1q300sxms}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\Anotação.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u88q1m155k",
+      "Integrity": "wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\Anotação.txt"
+    },
+    {
+      "Identity": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\Anotação.txt",
+      "SourceId": "MyRazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\",
+      "BasePath": "_content/MyRazorApp",
+      "RelativePath": "Anotação#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h1q300sxms",
+      "Integrity": "laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Anotação.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Anotação.h1q300sxms.txt",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\yswg5zuakz-h1q300sxms.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h1q300sxms"
+        },
+        {
+          "Name": "label",
+          "Value": "Anotação.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY="
+        }
+      ]
+    },
+    {
+      "Route": "Anotação.h1q300sxms.txt",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\Anotação.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h1q300sxms"
+        },
+        {
+          "Name": "label",
+          "Value": "Anotação.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY="
+        }
+      ]
+    },
+    {
+      "Route": "Anotação.h1q300sxms.txt.gz",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\yswg5zuakz-h1q300sxms.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h1q300sxms"
+        },
+        {
+          "Name": "label",
+          "Value": "Anotação.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek="
+        }
+      ]
+    },
+    {
+      "Route": "Anotação.txt",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\yswg5zuakz-h1q300sxms.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY="
+        }
+      ]
+    },
+    {
+      "Route": "Anotação.txt",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\wwwroot\\Anotação.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr+24WQKUAQY="
+        }
+      ]
+    },
+    {
+      "Route": "Anotação.txt.gz",
+      "AssetFile": "C:\\Users\\arthu\\MyRazorApp\\obj\\Debug\\net9.0\\compressed\\yswg5zuakz-h1q300sxms.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wkq+isDPGbfHKRf9zUG8CiQ08HYb2rxmJCDCNGYu1ek="
+        }
+      ]
+    }
+  ]
+}

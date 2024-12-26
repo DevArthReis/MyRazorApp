@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MyRazorApp/Anotação.h1q300sxms.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Anotação.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h1q300sxms"},{"Name":"integrity","Value":"sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr\u002B24WQKUAQY="},{"Name":"label","Value":"_content/MyRazorApp/Anota\u00E7\u00E3o.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"186"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr\u002B24WQKUAQY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 16:22:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyRazorApp/Anotação.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Anotação.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr\u002B24WQKUAQY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"186"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022laaEjgwyv/RittQ5WUVLAzw8z4HCxNyWr\u002B24WQKUAQY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 16:22:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -9,7 +9,7 @@ namespace MyRazorApp.Pages
         public async Task OnGet()
         {
             
-            await Task.Delay(5000);
+            await Task.Delay(5000);//adiciona um delay de 5 segundos no carregamento da tela tentando buscar algo
             for (var i = 0;i <= 100;i++)
             {
                 Categories.Add(

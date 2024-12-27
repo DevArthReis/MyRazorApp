@@ -6,11 +6,47 @@
 </head>
 <body>
     <Title>Entendedo Razor Pages</Title>
-    <h1>
-        @for(var i=0;i<=10;i++){
-            <p>Item @i</p>
-        }
-    </h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        ID
+                    </td>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Price
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach(var category in Model.Categories)
+            {
+                <tr>
+                    <td>
+                        @category.Id
+                    </td>
+                    <td>
+                        @category.Title
+                    </td>
+                    <td>
+                        @category.Price
+                    </td>
+                </tr>
+
+            }
+            </tbody>
+        </table>
+        
+    </div>
+    <style>
+        body{background-color: black;}
+        div{color: aliceblue;}
+    </style>
+        
+    
 </body>
 <style>
     body{background-color: black;}

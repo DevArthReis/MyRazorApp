@@ -25,9 +25,9 @@ namespace MyRazorApp.Pages
         }
     }
 
-    public record Category(int id,
-    string title,
-    decimal price)
+    public record Category(int Id,
+    string Title,
+    decimal Price)
     {
         
     }

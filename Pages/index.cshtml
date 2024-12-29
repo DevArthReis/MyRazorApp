@@ -1,5 +1,7 @@
 ﻿@page
-@model MyRazorApp.Pages.Index
+@model Index
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +9,8 @@
 <body>
     <Title>Entendedo Razor Pages</Title>
     <div>
+        <partial name="Shared/NavMenuPartial"/>
+        <h1>Categorias</h1>
         <table>
             <thead>
                 <tr>
@@ -42,8 +46,9 @@
         
     </div>
     <style>
-        body{background-color: black;}
-        div{color: aliceblue;}
+        
+        div{color: black}
+        
     </style>
         
     

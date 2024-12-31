@@ -1,0 +1,136 @@
+html{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+/* Estilo para a navbar */
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40; /* Cor de fundo escura */
+    padding: 10px 0;
+    list-style-type: none; /* Remove os marcadores */
+    margin: 0;
+}
+
+/* Estilo para os itens da navbar */
+ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links */
+ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #ffffff; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease; /* Animação suave */
+    padding: 5px 10px; /* Adiciona um espaço interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Hover effect para os links */
+ul li a:hover {
+    color: #ffc107; /* Amarelo para destaque */
+    background-color: #495057; /* Fundo escuro no hover */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+}
+
+/* Efeito ativo para a página atual */
+ul li a.active {
+    color: #ffc107; /* Amarelo para destaque */
+    font-weight: bold; /* Negrito */
+    border-bottom: 2px solid #ffc107; /* Barra inferior */
+}
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Letras brancas */
+}
+
+/* Cabeçalho da página */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #fff; /* Título em branco */
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #333; /* Fundo da tabela cinza escuro */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Sombra branca sutil */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+thead {
+    background-color: #555; /* Fundo do cabeçalho um pouco mais claro */
+    color: #fff; /* Texto branco */
+}
+
+thead tr td {
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* Linhas do corpo da tabela */
+tbody tr {
+    border-bottom: 1px solid #444; /* Borda sutil entre as linhas */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #222; /* Linhas pares com fundo preto mais claro */
+}
+
+tbody tr td {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: #555; /* Fundo ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Formatação dos preços */
+tbody tr td:last-child {
+    font-weight: bold;
+    color: #00ff00; /* Preço em verde neon */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+
+

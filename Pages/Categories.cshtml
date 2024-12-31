@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "~/Categorias/{skip?}/{take?}"
 @model MyApp.Namespace.CategoriesModel
 
 <h1>Categorias</h1>
@@ -27,7 +27,7 @@
                         @category.Title
                     </td>
                     <td>
-                        @category.Price.ToString("C");//usei o ToString para deixar os valores com a moeda que esta configurada meu pc
+                        @category.Price.ToString("C");//Interação c# e html
                     </td>
                 </tr>
 
@@ -36,8 +36,4 @@
         </table>
         
 
-    <style>
-        
-        div{color: black}
-        
-    </style>
+  

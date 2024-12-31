@@ -1,47 +1,8 @@
 ﻿@page
 @model Index
 
-
-        <h1>Categorias</h1>
-        <table>
-            <thead>
-                <tr>
-                    <td>
-                        ID
-                    </td>
-                    <td>
-                        Title
-                    </td>
-                    <td>
-                        Price
-                    </td>
-                </tr>
-            </thead>
-            <tbody>
-            @foreach(var category in Model.Categories)
-            {
-                <tr>
-                    <td>
-                        @category.Id
-                    </td>
-                    <td>
-                        @category.Title
-                    </td>
-                    <td>
-                        @category.Price.ToString("C");//usei o ToString para deixar os valores com a moeda que esta configurada meu pc
-                    </td>
-                </tr>
-
-            }
-            </tbody>
-        </table>
+<h1>Home</h1>
         
-
-    <style>
-        
-        div{color: black}
-        
-    </style>
         
     
->
+
